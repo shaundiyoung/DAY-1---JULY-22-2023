@@ -91,35 +91,69 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(4,157,191,1) 60%
     width: 100%;
     text-align: center;
     padding: 12px;
+    position: relative;
     
 }
 .mainimage{
-    max-width: 80%;
+    max-width: 90%;
     /* padding: 12px; */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
 }
 
 .mainimage:hover{
-    opacity: 0.3;
+    opacity: 0.8;
 }
+
+
+
+.onpic{
+    position: absolute;
+    top: 10%;
+    left: 10vw;
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    opacity: .5;
+    /* color: #730202; */
+}
+.onpic:hover{
+    color: aliceblue;
+    background-color:#002545;
+    opacity: 1;
+}
+
+.onpicheader{
+    font-size: 3rem;
+
+}
+
+.onpicbody{
+    font-size: 1.3rem;
+
+}
+
 
 .quote{
     /* font-style: italic; */
-    font-size: 2rem;
+    margin: auto;
+    font-size: 1.5rem;
     text-align: right;
     padding: 12px;
     margin-bottom: 40vh;
     margin-top: 40vh;
     color: #730202;
+    width: 60vw;
 }
 .quote2{
     text-align: left;
-    font-size: 2rem;
+    margin: auto;
+    font-size: 1.5rem;
     padding: 12px;
     margin-bottom: 40vh;
     margin-top: 40vh;
     color: #730202;
+    width: 60vw;
 }
 
 
@@ -193,4 +227,86 @@ hr{
 .copyright{
     text-align: center;
     margin: 30px;
+}
+
+
+
+
+
+
+
+/* Services*/
+
+.service{
+    margin: 1rem;
+    border: #000 solid;
+    width: 600px; 
+    display: inline-block;
+}
+
+
+.service_image{
+    margin: auto;
+    width: 90%;
+    /* position: relative; */
+}
+
+
+
+.service_header{
+    font-family: cursive;
+    font-size: 1.5rem;
+    /* position: absolute; */
+    /* top: 200px;
+    left: 43%; */
+}
+
+
+.service_content{
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /* Services*/
+
+.service{
+    margin: 1rem;
+    border: #000 solid;
+    width: 350px; 
+    display: inline-block;
+}
+
+
+.service_image{
+    margin: auto;
+    width: 90%;
+    /* position: relative; */
+}
+
+
+
+.service_header{
+    font-family: cursive;
+    font-size: 1.5rem;
+    /* position: absolute; */
+    /* top: 200px;
+    left: 43%; */
+}
+
+
+.service_content{
+    text-align: center;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+    
 }

@@ -236,12 +236,18 @@ hr{
 
 
 /* Services*/
-
+.page_head{
+    font-size: 2rem;
+    text-align: center;
+    font-family: cursive;
+}
 .service{
     margin: 1rem;
-    border: #000 solid;
+    /* border: #000 solid; */
     width: 600px; 
     display: inline-block;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -259,6 +265,7 @@ hr{
     /* position: absolute; */
     /* top: 200px;
     left: 43%; */
+    text-align: center;
 }
 
 
@@ -273,11 +280,59 @@ hr{
 
 
 @media screen and (max-width: 600px) {
-    /* Services*/
+
+
+    .home h1{
+        font-size:  3rem;
+    }
+
+
+
+    .image{
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        position: relative;
+        
+    }
+
+
+    .onpic{
+        position: absolute;
+        top: 4%;
+        left: 13vw;
+        width: 70vw;
+        margin: auto;
+        text-align: center;
+        opacity: .5;
+        /* color: #730202; */
+    }
+    .onpic:hover{
+        color: aliceblue;
+        background-color:#002545;
+        opacity: 1;
+    }
+    
+    .onpicheader{
+        font-size: 2rem;
+    
+    }
+    
+    .onpicbody{
+        font-size: 1rem;
+    
+    }
+    
+
+
+
+
+
+/* Services*/
 
 .service{
     margin: 1rem;
-    border: #000 solid;
+    /* border: #000 solid; */
     width: 350px; 
     display: inline-block;
 }
@@ -297,6 +352,7 @@ hr{
     /* position: absolute; */
     /* top: 200px;
     left: 43%; */
+    text-align: center;
 }
 
 
@@ -309,4 +365,16 @@ hr{
 }
 
     
+}
+
+
+
+
+@media screen and (max-width: 400px){
+    .service{
+        margin: 1rem;
+        /* border: #000 solid; */
+        width: 300px; 
+        display: inline-block;
+    }
 }

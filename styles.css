@@ -279,6 +279,76 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
+/* About Us */
+.about_us_body{
+    font-family: cursive;
+}
+
+.about_us_content{
+    margin: 8px;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}   
+
+.about_us_content_header{
+
+}
+
+.about_us_content_text{
+
+}
+
+
+
+
+
+
+
+
+
+/* Contact */
+.persons{
+    padding: 12px;
+    background: #fff;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.person1{
+
+}
+.person1_operations{
+    display: inline-block;
+    float: right;
+
+}
+
+.person1_subtract{
+    margin: 0px 12px;
+}
+.person1_add{
+    color: #002545;
+    margin: 0px 12px;
+}
+.person1_value{
+    margin: 0px 12px;
+    color: #002545;8
+
+}
+
+
+
+
 @media screen and (max-width: 600px) {
 
 

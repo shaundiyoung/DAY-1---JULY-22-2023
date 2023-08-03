@@ -30,15 +30,16 @@
     <div class="reservation_form_body">
         <form action="" method="post">
             <div>
-                <label for="name">Name of organization/individual</label>
-                <input type="text" name="name" id="">
-
-                <label for="beginning">Start Date</label>
-                <input type="date" name="beginning" id="">
-                
-                <label for="end">End Date</label>
-                <input type="date" name="end" id="">
-
+                <label for="name" class="email_label">Email:</label>
+                <input type="email" name="name" id="" class="email" required placeholder="email@example.com">
+                <div class="reserveration_date_container">
+                    <label class="reserveration_date_label" for="beginning">Start Date</label>
+                    <input class="reserveration_date" type="date" name="beginning" id="">
+                </div>
+                <div class="reserveration_date_container">
+                    <label class="reserveration_date_label" for="end">End Date</label>
+                    <input class="reserveration_date" type="date" name="end" id="">
+                </div>
 
                 <!-- <select name="" id="">
                     <option value="">
@@ -57,7 +58,18 @@
                             <span class="person1_add" onclick="add()">+</span>
                         </span>
                     </p>
+
+                    
+                    <p class="person1"> <span class="person1_title">Children</span>
+
+                        <span class="person1_operations">
+                            <span class="person1_subtract" onclick="subtract1()">-</span>
+                            <span class="person1_value" id="amount1">0</span>
+                            <span class="person1_add" onclick="add1()">+</span>
+                        </span>
+                    </p>
                 </div>
+                <button type="submit" class="reserveration_button">Book Reservation</button>
             </div>
         </form>
     </div>
@@ -68,16 +80,17 @@
 <div class="footer" id="Footer">
     <footer>
     
-    <ul class="footerlist">
-        <li> Contact Us</li>
-        <li>Services</li>
-        <li><i class="fa fa-facebook fa-solid"></i>Facebook</li>
-        <li><i class="fa fa-solid fa-instagram"></i>Instagram</li>
-        <li><i class="fa fa-solid fa-envelope"></i>Email</li>
-        <hr>
-        <li class="copyright">&copy; Justice Tours Jamaica | All rights reserved.</li>
-        
-    </ul>
+
+        <ul class="footerlist">
+            <li><a href="Contact.html"> Contact Us</a></li>
+            <li><a href="Services.html"> Services</a></li>
+            <li> <a href=""> <i class="fa fa-facebook fa-solid"></i>Facebook </a></li>
+            <li><a href=""><i class="fa fa-solid fa-instagram"></i>Instagram </a></li>
+            <li><a href=""><i class="fa fa-solid fa-envelope"></i>Email </a></li>
+            <hr>
+            <li class="copyright">&copy; Justice Tours Jamaica | All rights reserved.</li>
+            
+        </ul>
     
     
     </footer>

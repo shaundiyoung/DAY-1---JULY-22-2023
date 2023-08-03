@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }    
+a{
+    text-decoration: none;
+}
 body{
     width: 90%;
     margin: auto;
@@ -188,11 +191,13 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(4,157,191,1) 60%
 .sml{
 text-align: center;
 
+color: black;
 }
 .sml div{
     display: inline-block; margin-left: 20px;
     font-family: cursive;
     font-size: 2rem;
+    color: black;
 }
 
 .sml div:hover{
@@ -209,6 +214,8 @@ text-align: center;
     margin-top: 20px;
     background: rgb(0,255,255);
     background: radial-gradient(circle, rgba(0,255,255,1) 0%, rgba(115,2,2,1) 100%);
+    
+
 }
 .footerlist{
     text-align: center;
@@ -217,11 +224,13 @@ text-align: center;
 ul{
     list-style: none;
     font-family: cursive;
+    color: black;
 }
 
 hr{
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 
 .copyright{
@@ -242,9 +251,10 @@ hr{
     font-family: cursive;
 }
 .service{
+    text-align: center;
     margin: 1rem;
     /* border: #000 solid; */
-    width: 600px; 
+    width: 450px; 
     display: inline-block;
     padding: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -316,15 +326,43 @@ hr{
 
 
 /* Contact */
+.email_label{
+    font-size: 1.5rem;
+    display: block;
+    margin: 12px;
+}
+.email{
+    margin: 12px 0px;
+    font-size: 1.5rem;
+    width: 95%;
+    padding: 12px;
+}
+.reserveration_date_container{
+    display: block;
+    background: aliceblue;
+    margin: 12px 0px;
+    padding: 14px;
+}
+.reserveration_date_label{
+    font-size: 1.5rem;
+    width: max-content;
+}
+.reserveration_date{
+    font-size: 1.5rem;
+    width:60%;
+    float: right;
+}
+
 .persons{
     padding: 12px;
-    background: #fff;
+    background: aliceblue;
     color: gray;
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .person1{
+    margin: 12px 0px;
 
 }
 .person1_operations{
@@ -335,18 +373,28 @@ hr{
 
 .person1_subtract{
     margin: 0px 12px;
+    cursor: pointer;
 }
 .person1_add{
     color: #002545;
     margin: 0px 12px;
+    cursor: pointer;
 }
 .person1_value{
     margin: 0px 12px;
-    color: #002545;8
+    color: #002545;
 
 }
 
-
+.reserveration_button{
+    color: #002545;
+    width: 100%;
+    margin: 12px 0px;
+    padding: 12px;
+    background:#730202;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
 
 
 @media screen and (max-width: 600px) {
